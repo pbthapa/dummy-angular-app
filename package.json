@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "analytics-off": "ng analytics off",
+    "build": "ng build --omit=dev",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:dummy-angular-app": "node dist/dummy-angular-app/server/server.mjs"
